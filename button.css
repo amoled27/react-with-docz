@@ -1,0 +1,26 @@
+.btn {
+  padding: 6px 20px;
+  font-size: 19px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  min-width: 80px;
+  min-height: 42px;
+  cursor: pointer;
+}
+.info {
+  background: #2196f3;
+}
+
+.warning {
+  background: #c20f05;
+}
+
+.flat {
+  border-radius: 0px;
+}
+
+.round-edge {
+  border-radius: 10px;
+}

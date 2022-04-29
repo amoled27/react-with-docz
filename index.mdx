@@ -1,0 +1,43 @@
+---
+name: Aviyel UI Library
+route: /
+---
+
+import Button from "./Button";
+import { Playground } from "docz";
+
+# Buttons
+## Warning Button
+
+<Button title="Warning" severity="warning" />
+
+<Playground>
+{()=>{
+    const [warning,setWarning] = React.useState("")
+    return(
+        <>
+        <Button title="Set Warning"  severity="warning" onClick={() => setWarning("Danger!!!")}>
+        
+        </Button>
+        <p style={{color: "red"}}>Caution: {warning}</p>
+        </>
+    )
+}}
+</Playground>
+
+## Info Button
+
+<Button title="Info" severity="info" />
+
+## Rounded Button
+
+<Button title="Rounded" severity="info" type="cardWithTitle" />
+
+## Flat Button
+
+<Button title="Flat" severity="info" type="cardFlat"/>
+
+
+
+
+
